@@ -20,4 +20,4 @@ jobs:
     - run: npm install -g
     - run: npm install -g mocha @babel/cli @babel/core @babel/node @babel/preset-env @babel/register
     - run: npm install
-    - run: eslint --ignore-path .gitignore .
+    - run: npx eslint --ignore-path .gitignore .
