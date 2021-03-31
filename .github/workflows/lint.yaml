@@ -21,7 +21,5 @@ jobs:
     - run: npm install -g mocha @babel/cli @babel/core @babel/node @babel/preset-env @babel/register
     - run: npm install
 
-    - name: Run linters
-      uses: wearerequired/lint-action@v1
-      with:
-        eslint: true
+    - name: Run lint
+    - run: npm run checkdev
